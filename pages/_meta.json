@@ -1,0 +1,15 @@
+{
+  "index": "Overview",
+  "quickstart": "Quickstart Guide",
+  "applications": "Applications",
+  "about": {
+    "title": "About",
+    "type": "page"
+  },
+  "contact": {
+    "title": "Contact ↗",
+    "type": "page",
+    "href": "#",
+    "newWindow": true
+  }
+}

@@ -1,0 +1,25 @@
+## GeneCountMerger
+
+
+
+This is a simple preprocessing tool to merge individual gene count files (Eg. output count files from htseq). 
+
+**NOTE:** the first column must contain the genes.
+
+**Fetaures**
+
+- Merge individual sample count files Or merge multiple matrices
+    > See sample input files below for more details
+     
+- Convert ensembl gene IDs to gene names
+    * Option to choose from available genome/versions
+    * If genome/version is not available in the options and you have a .gtf file for your genome follow these instructions.
+
+- Option to add pseudocounts (+1)
+- Download merged counts file in .csv format
+- Transcriptome Analysis (Optional) after merging your counts:
+    * Use our Seurat Wizard to carry out single-cell RNA analysis
+    * Use DESeq2Shiny or START apps to carry out bulk RNA analysis
+    * If there are NO replicates , use DESeq2Shiny app for exploratory analysis
+
+

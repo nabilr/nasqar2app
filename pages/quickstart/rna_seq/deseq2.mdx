@@ -1,0 +1,110 @@
+## Deseq2 Shiny
+
+
+This Shiny app is a wrapper around DESeq2, an R package for “Differential gene expression analysis based on the negative binomial distribution”. It is meant to provide an intuitive interface for researchers to easily upload, analyze, visualize, and explore RNAseq count data interactively with no prior programming knowledge in R. This tool supports simple or multi-factorial experimental design. It also allows for exploratory analysis when no replicates are available.The app also provides svaseq Surrogate Variable Analysis for hidden batch effect detection. The user can then include Surrogate Variables (SVs) as adjustment factors for downstream analysis (eg. differential expression). 
+
+For more information on svaseq, go to this link
+
+For details on how this package is used for RNASeq count data analysis and visualization, see documentation
+
+**Input file**
+
+Input file is a csv file of Raw gene count matrix from GeneCountMereger. 
+Either you can start transcriptome analysis directly from here or continue 
+from previous processing steps. If you have saved count matrix with ensemble ID
+ and gene name you can choose the geneIDS and GeneSysmbol option when uploading you data. 
+
+
+import ImageSample from '../../../components/image_center'
+
+<ImageSample path="/deseq2_input.png"/>
+
+
+
+
+
+Once Upload the file you will see the matrix you uploaded. If there are any duplicate
+ names it will be appended with id as marked in red color message. For your reference those duplicate names show separately in any case if you want to see all duplicate names together.
+File name has to follow sample name convention as `<samplename_[replicate number]>`
+
+
+<ImageSample path="/deseq2_table.png"/>
+
+
+To run deseq2 you must first specify the design formula, for more information about 
+the design formula click here.
+
+Click on ‘Initial DEseq2 to proceed’
+<ImageSample path="/deseq2_init.png"/>
+
+
+After initialization parameters for deseq2 to run its optional to run Surrogate Variable
+analysis (SVA).
+
+<ImageSample path="/deseq2_run.png"/>
+
+How much details I should bring here for the below .
+
+I think nice brief here what information can be pullout form a heatmap and PCA plots
+
+
+
+
+
+
+
+<ImageSample path="/deseq2_vst.png"/>
+
+
+
+
+
+
+
+
+<ImageSample path="/deseq2_dea2.png"/>
+
+
+Result of desq2 can be analysied by exploring newly from newly added tabs 
+DEereuslt
+Gene BoxPlot
+And Heatmap
+
+You will not see tha tabs for Volcano and Venndiagram until you did comparative analysis using different conditions.Once  enrichment result makes interesting for you marking it as intertest for comparing the 
+
+How this geneamps is different from the earlier one will good explain here or somewhere
+
+
+
+
+
+<ImageSample path="/deseq2_dea4.png"/>
+
+<ImageSample path="/deseq2_volcano1.png"/>
+
+<ImageSample path="/deseq2_volcano2.png"/>
+
+<ImageSample path="/deseq2_volcano3.png"/>
+
+<ImageSample path="/deseq2_volcano4.png"/>
+
+
+<ImageSample path="/deseq2_GE_boxplot1.png"/>
+
+<ImageSample path="/deseq2_GE_boxplot2.png"/>
+
+
+<ImageSample path="/deseq2_GE_heatmap1.png"/>
+
+<ImageSample path="/deseq2_GE_heatmap2.png"/>
+
+
+
+
+
+
+
+
+
+
+
