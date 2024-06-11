@@ -134,3 +134,146 @@ export default function BasicGrid() {
     </Box>
   );
 }
+
+
+export  function KrisCard() {
+  return (
+    <Card sx={{ width: 345, height:480}}>
+        <CardActionArea  href='https://as.nyu.edu/faculty/kristin-gunsalus.html' target="_blank">
+      <CardMedia
+        sx={{ height: 340 }}
+        image="/kris.jpeg"
+        title="green iguana"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+        Kristin Gunsalus
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+        Director of Bioinformatics, NYUAD CGSB
+        </Typography>
+      </CardContent>
+      </CardActionArea>
+     
+    </Card>
+  );
+}
+
+
+export  function NizarCard() {
+  return (
+    <Card sx={{ width: 345, height:480}}>
+        <CardActionArea  href='https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/nyuad-cgsb/cgsb-cores/bioinformatics-core/nizar-drou.html' target="_blank">
+      <CardMedia
+        sx={{ height: 340 }}
+        image="/nizar.jpeg"
+        title="green iguana"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+        Nizar Drou
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+        Core Bioinformatics Lead Developer
+        </Typography>
+      </CardContent>
+      </CardActionArea>
+     
+    </Card>
+  );
+}
+
+export  function ArshadCard() {
+  return (
+    <Card sx={{ width: 345, height:480}}>
+        <CardActionArea  href='https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/nyuad-cgsb/cgsb-cores/bioinformatics-core/muhammad-arshad.html' target="_blank">
+      <CardMedia
+        sx={{ height: 345 }}
+        image="/arshad.jpeg"
+        title="green iguana"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+        Muhammad Arshad
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+        Research Scientist
+        </Typography>
+      </CardContent>
+      </CardActionArea>
+     
+    </Card>
+  );
+}
+
+export  function JayaramCard() {
+  return (
+    <Card sx={{ width: 345, height:480}}>
+        <CardActionArea  href='https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/nyuad-cgsb/cgsb-cores/bioinformatics-core/jayaram-radhakrishnan.html' target="_blank">
+      <CardMedia
+        sx={{ height: 340 }}
+        image="/jayaram.jpeg"
+        title="green iguana"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+        Jayaram Radhakrishnan
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+        Bioinformatics Infrastructure Engineer
+        </Typography>
+      </CardContent>
+      </CardActionArea>
+     
+    </Card>
+  );
+}
+
+
+export  function SaldiCard() {
+  return (
+    <Card sx={{ width: 345, height:480}}>
+        <CardActionArea href=""  target="_blank">
+      <CardMedia
+        sx={{ height: 340 }}
+        image="/Giuseppe.jpeg"
+        title="green iguana"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+        Giuseppe-Antonio Saldi
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+        Data Computational Scientist
+        </Typography>
+      </CardContent>
+      </CardActionArea>
+     
+    </Card>
+  );
+}
+
+
+export  function NabilCard() {
+  return (
+    <Card sx={{ width: 345, height:480}}>
+        <CardActionArea  href='https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/nyuad-cgsb/cgsb-cores/bioinformatics-core/nizar-drou.html' target="_blank">
+      <CardMedia
+        sx={{ height: 340 }}
+        image="/nabil.jpeg"
+        title="green iguana"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+        Nabil Rahiman
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+        Bioiformatics Full Stack Developer
+        </Typography>
+      </CardContent>
+      </CardActionArea>
+     
+    </Card>
+  );
+}
+

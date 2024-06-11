@@ -2,26 +2,29 @@
 
 ## DEBrowser
 
+
 import * as React from 'react';
 import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
 
-export const DEBrowser = () => {
+export const MyApp = () => {
 
   return (
-     <Button  href="/new-page"  variant="outlined" size="small"  style={{ marginTop:"10px"}}>
+     <Button href="/DEBrowser/"   target="_blank"  variant="outlined" size="small"  style={{ marginTop:"10px"}} >
           Launch DEBrowser
         </Button>
   );
 };
 
-DEBrowser is interactive differential expression analysis and visualization tool for count data.
-The application provides a rich and interactive web based graphical user interface built on R’s shiny infrastructure. DEBrowser allows users to visualize data with various types of graphs that can be explored further by selecting and re-plotting any desired subset of data. Using the visualization approaches provided, users can determine and correct technical variations such as batch effects and sequencing depth that affect differential analysis. We show DEBrowser’s ease of use by reproducing the analysis of two previously published data sets.
+DEBrowser is a flexible, intuitive, web-based analysis platform that enables an iterative and
+interactive analysis of count data without any requirement of programming knowledge.
+For more information click [here](https://www.bioconductor.org/packages/release/bioc/vignettes/debrowser/inst/doc/DEBrowser.html)
+
+
+<MyApp/>
 
 
 
-
-<DEBrowser/>
 
 
 

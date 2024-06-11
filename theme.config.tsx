@@ -14,7 +14,7 @@ const config: DocsThemeConfig = {
         <circle cx="166" cy="120" r="40" fill="currentColor"/>
       </svg> */}
       <span style={{ marginLeft: '.4em', fontWeight: 800 }}>
-      NASQAR2: Nucleic Acid SeQuence Analysis Resource
+      NASQAR2 : Nucleic Acid SeQuence Analysis Resource
       </span>
     </>
   ),
@@ -37,24 +37,30 @@ const config: DocsThemeConfig = {
   themeSwitch: {
     useOptions() {
       return {
-        light: 'Ligh222',
+        light: 'Light',
         dark: 'Dark',
         system: 'System'
       }
     }
   },
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+    link: 'https://github.com/nabilr/nasqar2app',
   },
   chat: {
     link: 'https://discord.com',
   },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  docsRepositoryBase: 'https://github.com/nabilr/nasqar2app/tree/main',
   footer: {
     text: 'Nextra Docs Template',
   },
 
-  darkMode: false
+
+  darkMode: true,
+  nextThemes: {
+    defaultTheme: 'light',
+    forcedTheme: 'light',
+
+  }
 
 
   

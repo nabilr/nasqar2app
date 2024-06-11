@@ -21,7 +21,7 @@ import Image from 'next/image'
 import { useState } from 'react'
 import styles from './counters.module.css'
 
-function ImageSample(props) {
+export  function ImageSample(props) {
 
 
   return (
@@ -31,7 +31,23 @@ function ImageSample(props) {
           display: "flex",
           justifyContent: "center",
         }}>
-    <Image src={props.path} width="800" height="800" alt="hello" />
+    <Image src={props.path} width="800" height="800" alt="" />
+    </div>
+    </div>
+  )
+}
+
+export function ImageSample1(props) {
+
+
+  return (
+    <div>
+    <div  style={{
+          marginTop:"30px",
+          display: "flex",
+          justifyContent: "center",
+        }}>
+    <Image src={props.path} width="600" height="600" alt="" />
     </div>
     </div>
   )

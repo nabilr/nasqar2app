@@ -1,4 +1,6 @@
 {
-    "atacseq_qc": "Atacseq QC",
-  }
+
+    "bulk": "Bulk",
+    "single_cell": "Single Cell"
+}
   
